@@ -2,50 +2,45 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	color: #17252A;
-	background-color: #3AAFA9;
+	font-size: 16px;
+	color: #222;
+	background-color: #FaFaFa;
 	text-align: center;
 	line-height: 1.4em;
 }
 
 .container {
 	padding: 0;
-	margin: 0 auto;
-	width: 700px;
-	min-height: 100vh;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	margin-top: 40px;
 }
 
-h2 {
-	color: #FEFFFF;
+h3 {
+  margin-top: 30px;
+}
+
+hr {
+	margin: 25px;
+}
+
+.footer {
+	margin-top: 40px;
 }
 
 code {
-	display: block;
-	width: 100%;
-
   font-family: monospace;
-  padding: 8px;
-  color: #DEF2F1;
-  background-color: #2B7A78;
-  border-radius: 4px;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
 
 a {
-	color: #DEF2F1;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-footer {
-	margin-top: 20px;
-	font-size: 16px;
+	color: #2574A9;
 }
